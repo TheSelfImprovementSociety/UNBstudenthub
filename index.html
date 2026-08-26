@@ -52,7 +52,21 @@
     footer{margin-top:55px;background:var(--ink);color:#c8c4bf;text-align:center;padding:28px;font-size:.78rem}
     @media(max-width:800px){.search-panel{grid-template-columns:1fr}.explore,.grid{grid-template-columns:1fr 1fr}}
     @media(max-width:550px){.explore,.grid{grid-template-columns:1fr}.opportunity-header{align-items:flex-start;flex-direction:column}}
-  </style>
+  .view-all{
+  margin-top:8px;
+  padding:0;
+  border:0;
+  background:none;
+  color:var(--gold);
+  font-size:.78rem;
+  font-weight:700;
+  cursor:pointer;
+}
+
+.view-all:hover{
+  text-decoration:underline;
+}
+</style>
 </head>
 <body>
 <header class="hero">
@@ -84,9 +98,12 @@
     </div>
   </section>
     <div class="opportunity-header">
-      <div><h2>Opportunities</h2></div>
-      <div class="count" id="count"></div>
-    </div>
+  <div>
+    <h2>Opportunities</h2>
+    <button class="view-all" onclick="setFilter('All')">View all opportunities</button>
+  </div>
+  <div class="count" id="count"></div>
+</div>
     <div class="grid" id="grid"></div>
     <div class="empty" id="empty" style="display:none">No opportunities match your search. Try another filter.</div>
 </main>
