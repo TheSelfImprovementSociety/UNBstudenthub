@@ -65,8 +65,6 @@
 <main class="container">
   <section class="search-panel">
     <input id="search" type="search" placeholder="Search opportunities, skills or organizations..." aria-label="Search">
-    <select id="category" aria-label="Filter by type"><option value="All">All types</option></select>
-    <select id="location" aria-label="Filter by location"><option value="All">All locations</option></select>
   </section>
 
   <section class="section">
@@ -85,8 +83,15 @@
       </button>
     </div>
   </section>
+<section class="filter-panel">
+  <select id="category" aria-label="Filter by type">
+    <option value="All">All types</option>
+  </select>
 
-  <section>
+  <select id="location" aria-label="Filter by location">
+    <option value="All">All locations</option>
+  </select>
+</section>
     <div class="opportunity-header">
       <div><div class="label">Curated for students</div><h2>Opportunities</h2></div>
       <div class="count" id="count"></div>
