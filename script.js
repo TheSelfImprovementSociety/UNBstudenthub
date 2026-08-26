@@ -3,7 +3,7 @@ let opportunities = [];
 const grid = document.getElementById("grid");
 const search = document.getElementById("search");
 const category = document.getElementById("category");
-const location = document.getElementById("location");
+const locationFilter = document.getElementById("location");
 const count = document.getElementById("count");
 const empty = document.getElementById("empty");
 
@@ -30,16 +30,16 @@ function buildFilters() {
   const locations = [...new Set(opportunities.map(o => o.location))].sort();
 
   category.innerHTML = '<option value="All">All types</option>';
-  location.innerHTML = '<option value="All">All locations</option>';
+  locationFilter.innerHTML = '<option value="All">All locations</option>';
 
   categories.forEach(value => category.add(new Option(value, value)));
-  locations.forEach(value => location.add(new Option(value, value)));
+  location.forEach(value => locationFilter.add(new Option(value, value)));
 }
 
 function render() {
   const term = search.value.trim().toLowerCase();
   const selectedCategory = category.value;
-  const selectedLocation = location.value;
+  const selectedLocation = locationFilter.value;
 
   const results = opportunities.filter(o => {
     const searchable = [
@@ -84,6 +84,6 @@ function escapeAttribute(value) {
 
 search.addEventListener("input", render);
 category.addEventListener("change", render);
-location.addEventListener("change", render);
+locationFilter.addEventListener("change", render);
 
 loadOpportunities();
