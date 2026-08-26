@@ -33,7 +33,7 @@ function buildFilters() {
   locationFilter.innerHTML = '<option value="All">All locations</option>';
 
   categories.forEach(value => category.add(new Option(value, value)));
-  location.forEach(value => locationFilter.add(new Option(value, value)));
+  locations.forEach(value => locationFilter.add(new Option(value, value)));
 }
 
 function render() {
