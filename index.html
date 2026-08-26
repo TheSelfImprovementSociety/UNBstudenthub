@@ -51,7 +51,32 @@
     .error-card{display:flex;flex-direction:column;gap:7px}
     footer{margin-top:55px;background:var(--ink);color:#c8c4bf;text-align:center;padding:28px;font-size:.78rem}
     @media(max-width:800px){.search-panel{grid-template-columns:1fr}.explore,.grid{grid-template-columns:1fr 1fr}}
-    @media(max-width:550px){.explore,.grid{grid-template-columns:1fr}.opportunity-header{align-items:flex-start;flex-direction:column}}
+   @media(max-width:550px){
+  .explore,
+  .grid{
+    grid-template-columns:1fr;
+    gap:12px;
+  }
+
+  .card{
+    padding:18px;
+    min-height:0;
+  }
+
+  .card-top{
+    margin-bottom:13px;
+  }
+
+  .card h3{
+    font-size:1.3rem;
+  }
+
+  .opportunity-header{
+    align-items:flex-start;
+    flex-direction:column;
+    gap:6px;
+  }
+}
   .view-all{
   margin-top:8px;
   padding:0;
