@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Promise Partnership",
+    "organization": "Promise Partnership",
+    "category": "Volunteering",
+    "location": "Saint John",
+    "type": "Mentoring",
+    "description": "Mentor school students and support youth development.",
+    "purpose": "Mentor school students",
+    "link": "https://www.instagram.com/promisepartnership/"
+  },
+  {
+    "title": "Swim with a Mission",
+    "organization": "Swim with a Mission",
+    "category": "Volunteering",
+    "location": "Saint John",
+    "type": "Youth & Water Safety",
+    "description": "Teach young people water safety and swimming skills.",
+    "purpose": "Teach young ones water safety & swim skills",
+    "link": "https://www.instagram.com/swam.saintjohn/"
+  },
+  {
+    "title": "Saint John Newcomers Centre",
+    "organization": "Saint John Newcomers Centre",
+    "category": "Volunteering",
+    "location": "Saint John",
+    "type": "Community",
+    "description": "Support newcomers and contribute to community inclusion.",
+    "purpose": "Help newcomers",
+    "link": "https://www.instagram.com/sjnewcomerscentre/"
+  },
+  {
+    "title": "PRUDE Inc.",
+    "organization": "PRUDE Inc.",
+    "category": "Volunteering",
+    "location": "Saint John",
+    "type": "Diversity & Inclusion",
+    "description": "Get involved in diversity, equity, inclusion and community initiatives.",
+    "purpose": "Support diversity and inclusion",
+    "link": "https://www.prudeinc.org/"
+  },
+  {
+    "title": "SVNB Helpline",
+    "organization": "Sexual Violence New Brunswick",
+    "category": "Volunteering",
+    "location": "New Brunswick",
+    "type": "Community Support",
+    "description": "Explore volunteer opportunities with Sexual Violence New Brunswick.",
+    "purpose": "Community support",
+    "link": "https://svnb.ca/en/volunteer/"
+  },
+  {
+    "title": "Horizon Health Network",
+    "organization": "Horizon Health Network",
+    "category": "Volunteering",
+    "location": "New Brunswick",
+    "type": "Healthcare",
+    "description": "Explore healthcare volunteering opportunities across New Brunswick.",
+    "purpose": "Healthcare volunteering",
+    "link": "https://careers.horizonnb.ca/en/volunteering/"
+  },
+  {
+    "title": "Social Pediatrics NB",
+    "organization": "Social Pediatrics NB",
+    "category": "Volunteering",
+    "location": "New Brunswick",
+    "type": "Healthcare & Community",
+    "description": "Explore opportunities connected to children, youth and community health.",
+    "purpose": "Support children, youth & community health",
+    "link": "https://www.nbsocialpediatrics.com/"
+  },
+  {
+    "title": "Community Volunteering Club",
+    "organization": "UNB Saint John",
+    "category": "Volunteering",
+    "location": "Saint John",
+    "type": "Fundraising & Community",
+    "description": "Take part in fundraising and community support activities through the student club.",
+    "purpose": "Fundraising / community support",
+    "link": "https://www.instagram.com/volunteeringunbsj/"
+  },
+  {
+    "title": "UNB Volunteer",
+    "organization": "UNB Saint John",
+    "category": "Volunteering",
+    "location": "Saint John",
+    "type": "Campus",
+    "description": "Find volunteering and community engagement opportunities through UNB.",
+    "purpose": "Get involved in the UNB community",
+    "link": "https://www.unb.ca/saintjohn/"
+  },
+  {
+    "title": "Saint John Cares Inc.",
+    "organization": "Saint John Cares Inc.",
+    "category": "Volunteering",
+    "location": "Saint John",
+    "type": "Community",
+    "description": "Find ways to help others and get involved in the local community.",
+    "purpose": "Community support",
+    "link": "https://www.stjohnscares.org/ways-to-help-others.html"
+  },
+  {
+    "title": "Volunteer Success",
+    "organization": "Volunteer Success",
+    "category": "Volunteering",
+    "location": "New Brunswick",
+    "type": "Search Engine",
+    "description": "Search for volunteer opportunities using filters for location, category and student opportunities.",
+    "purpose": "Search volunteer opportunities",
+    "link": "https://volunteersuccess.com/opportunities?province=NB&keywords=&categories=&virtual=&events=&person=&student=&adult=&groups=&distance=1&postal_code=&distance_km=25"
+  },
+  {
+    "title": "Greater Saint John Volunteer Connector",
+    "organization": "Greater Saint John Volunteer Connector",
+    "category": "Volunteering",
+    "location": "Saint John",
+    "type": "Search Engine",
+    "description": "Find volunteer opportunities across Greater Saint John.",
+    "purpose": "Search local volunteer opportunities",
+    "link": "https://gsjvolunteer.ca/"
+  },
+  {
+    "title": "Be There Certificate",
+    "organization": "Be There Certificate",
+    "category": "Certificates",
+    "location": "Online",
+    "type": "Certificate",
+    "description": "Complete training focused on how to support someone who may be struggling.",
+    "purpose": "Build skills for supporting others",
+    "link": "https://www.betherecertificate.org/"
+  },
+  {
+    "title": "Seeds of Change",
+    "organization": "Sexual Violence New Brunswick",
+    "category": "Certificates",
+    "location": "New Brunswick / Online",
+    "type": "Bystander Training",
+    "description": "Bystander training. Discounted or free options may be available for UNB students.",
+    "purpose": "Learn bystander intervention skills",
+    "link": "https://svnb.ca/en/courses/seeds-of-change/"
+  },
+  {
+    "title": "DEI Training",
+    "organization": "PRUDE Inc.",
+    "category": "Certificates",
+    "location": "Saint John / Online",
+    "type": "DEI Training",
+    "description": "Explore diversity, equity and inclusion training to build awareness and practical skills.",
+    "purpose": "Develop diversity, equity & inclusion skills",
+    "link": "https://www.prudeinc.org/dei/"
+  }
+]
